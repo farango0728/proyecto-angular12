@@ -9,9 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { BethelComponent } from './pages/bethel/bethel.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CartComponent } from './shared/components/cart/cart.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BethelComponent],
+  declarations: [AppComponent, HeaderComponent, BethelComponent, CartComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
